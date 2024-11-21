@@ -26,7 +26,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Obj
         }
 
         GetObjectRequest request = GetObjectRequest.builder()
-                .bucket("url-uuid-bucket")
+                .bucket("bucket")
                 .key(shortUrlCode + ".json")
                 .build();
 
